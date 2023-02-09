@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+}
+
+.succ-sub {
+  text-align: center;
+  height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  color: #444bab;
+}
+
+.succ-main {
+  height: 54px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 149.8%;
+  text-align: center;
+  color: #4f516b;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 597px;
+  margin-bottom: 90px;
+  background: #fafafb;
+  font-family: "Poppins", sans-serif;
+}
+
+.utube-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 32px;
+  padding: 10px;
+}
+
+.ucard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 376px;
+  height: 207px;
+  margin-right: 30px;
+  background: #323232;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.own-succ-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+}
+
+.own-succ-stories h1 {
+  width: 509px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 149.8%;
+  text-align: center;
+  color: #4f516b;
+  margin-bottom: 15px;
+}
+
+.own-succ-stories p {
+  width: 328px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 149.8%;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #4359af;
+  margin-bottom: 14px;
+}
+
+.own-trial {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ebecff;
+  padding-right: 10px;
+  padding-left: 20px;
+  background: #fafafb;
+  border-radius: 6px;
+  height: 60px;
+  width: 609px;
+  margin-bottom: 30px;
+}
+
+.own-succ-stories input {
+  height: 59px;
+  border: none;
+  background: #fafafb;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 149.8%;
+  color: #afacac;
+  flex-grow: 2;
+}
+
+.own-succ-stories input:focus {
+  outline: none;
+}
+
+.own-succ-stories button {
+  width: 248px;
+  height: 49px;
+  background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  color: #ffffff;
+}
+
+
